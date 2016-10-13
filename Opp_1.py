@@ -32,8 +32,8 @@ class Car(Vehicle):
 class Truck(Vehicle):
     base_sale_price = 10000
     wheels = 8
-def vehicle_type(self):
-    return 'truck'
+    def vehicle_type(self):
+     return 'truck'
 class Motorcycle(Vehicle):
     base_sale_price = 4000
     wheels = 2
